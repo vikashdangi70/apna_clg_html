@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range</title>
+</head>
+<body>
+    <h1><b>Student_Login</b></h1><br>
+    <hr>
+
+    <form action="/server">
+      <div>
+        <label for="Student id ">Student ID :</label>
+        <input type="text" placeholder="Student id">
+       
+      </div>
+
+      <div>
+        <label for="Password">Strong_password : </label>
+        <input type="Password" placeholder="8_digit_password">
+      </div>
+    
+      <label for="Gender"> Select your Gender : </label>       
+      <select name="Gender" id="gender">                        <!-- Concept of dropdown -->
+        <option value="Male">Male</option> 
+        <option value="Female">Female</option> 
+        <option value="Other">Other</option> 
+      </select>
+      <br>
+       
+      <label for="age">I am 18 + </label>                        <!-- concept of checkbox-->
+      <input type="checkbox" name="age" id="age">
+      <br>
+
+
+      <div> 
+      <label for="branch">Select Your Branch : </label><br>     <!-- concept of ratio button-->
+      <label for="IOT">IOT</label>
+      <input type="radio" name="branch" id="IOT" value="IOT">
+      <br>
+
+      <label for="AIADS">AIADS</label>
+      <input type="radio" name="branch" id="AIADS" value="AIADS">
+      <br>
+
+      <label for="BLOCKCHAIN">BLOCKCHAIN</label>
+      <input type="radio" name="branch" id="BLOCKCHAIN" value="BLOCKCHAIN">
+
+      </div>
+      <br><hr>
+     
+    <div>
+        <label for="enrollment">Select your enrollement Range : </label>    <!-- Concept of Range -->
+        <input type="range" min="1" max="10">
+    </div><br>
+
+    <label for="textarea" name="feedback">Please provide your feedback : </label>   <!--Concept of textarea element-->
+    <textarea id="Feedback"></textarea>                                              <!--without name element any element does not go to url-->>
+
+      <input type="submit" value="Submit">                                 <!---Concept of button --->>
+      <input type="reset"  value="Reset">
+     
+    </form>
+</body>
+</html>
